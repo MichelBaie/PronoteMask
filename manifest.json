@@ -2,7 +2,10 @@
     "name": "PronoteMask",
     "version": "1.0",
     "description": "Retire automatiquement vos informations personnelles sur votre espace Pronote.",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "permissions": ["activeTab"],
+    "icons": {
+        "128": "img/logo.png"
+    },
     "content_scripts": [
         {
             "matches": ["*://*.index-education.net/*"],
