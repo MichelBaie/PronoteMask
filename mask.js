@@ -4,6 +4,7 @@ window.setInterval( function(){
         var element = document.getElementById("GInterface.Instances[0].Instances[0]");
         if(element !== "null") {
             element.parentNode.removeChild(element);
+            document.title = 'Pronote'; // New title :)
             fait = true
         }
     }
