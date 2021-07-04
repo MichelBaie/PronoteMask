@@ -8,7 +8,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["*://*.index-education.net/*", "*://*.ac-grenoble.fr/*"],
+            "matches": ["*://*.index-education.net/*", "*://*.ac-grenoble.fr/pronote/*"],
             "js": ["mask.js"]
         }
     ],
